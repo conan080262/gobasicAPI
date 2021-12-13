@@ -1,0 +1,1 @@
+string for text read file.txt

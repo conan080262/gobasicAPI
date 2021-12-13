@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+var Fullname string = "nnnnnnnnnn"
 var fullname string = "Non"
 var email string = "codenon@hotmail.com"
 var c, python bool = true, false
@@ -29,4 +30,5 @@ func Learn() {
 
 	s := strconv.Itoa(vat)
 	fmt.Println("int to String Vat is " + s)
+	fmt.Println("int to String Vat is " + Fullname)
 }
