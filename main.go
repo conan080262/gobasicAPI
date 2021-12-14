@@ -1,6 +1,8 @@
 package main
 
-import "github.com/conan080262/gobasicAPI/mapandstruct"
+import (
+	"github.com/conan080262/gobasicAPI/pointers"
+)
 
 func main() {
 
@@ -10,5 +12,7 @@ func main() {
 	// functions.Learn()
 	// flowcontrol.Learn()
 	// arrayandslices.Learn()
-	mapandstruct.Learn()
+	// mapandstruct.Learn()
+	pointers.Learn()
+
 }
